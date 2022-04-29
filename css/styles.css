@@ -228,6 +228,51 @@ float: right;
 	background: radial-gradient(circle, rgba(178, 199, 64, 0.5) 0%, rgba(18, 119, 214, 0.5) 100%);
   }
 
+  /* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+
+    /* Set a specific height */
+    height: 600px;
+    width: 1320px;
+    border: 3px solid rgb(37, 11, 37);
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 10px;
+
+	/* Place text in the middle of the image */
+.hero-text {
+    background-color: rgb(10, 10, 10, 0.5);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    height: 400px;
+    width: 1200px;
+    margin-top: 95px;
+    margin-left: 20px;
+}
+
+
+}
+.sound {
+    clear: right;
+    margin-top: 270px;
+    margin-left: 560px;
+}
+
+.video {
+    margin-left: 60px;
+}
+
+
 section {
 	/* border: 2px solid rgb(10, 10, 10); */
 	color: rgb(250, 235, 215);
