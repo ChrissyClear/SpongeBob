@@ -68,21 +68,17 @@
     </div>
 
         <article class="contact-article">
-            <h3>Contact Form</h3>
+            <h3 class="page">Contact Form</h3>
 
             <div class="container">
               <form action="/action_page.php">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <input type="text" id="fname" name="firstname" placeholder="Your First Name.." required height="50px" width="200px">
             
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <input type="text" id="lname" name="lastname" placeholder="Your Last Name.." required height="50px" width="200px">
             
-                <label for="email">Email</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <input type="text" id="email" name="email" placeholder="Email Address.." required height="50px" width="200px">
             
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <textarea id="subject" name="subject" placeholder="Write something.." required style="height:600px"></textarea>
             
                 <input type="submit" value="Submit">
               </form>
