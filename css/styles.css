@@ -232,7 +232,7 @@ img {
  .hero-image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
 	height: 600px;
-	width: 1320px;
+	width: 1290px;
 	border: 3px solid rgb(37, 11, 37);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -241,26 +241,70 @@ img {
 	margin-bottom: 10px;
  }
 
-.hero-text {
-		background-color: rgb(10, 10, 10, 0.5);
+.text-back {
+		background-color: rgb(10, 10, 10, 0.0);
 		text-align: center;
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		color: white;
-		height: 400px;
-		width: 1200px;
-		margin-top: 95px;
+		color: rgb(0, 255, 255, 0.725);
+		text-shadow: 4px 8px 10px rgb(10, 10, 10);
+		height: 600px;
+		width: 1290px;
 		margin-left: 20px;
 }
 
+.text-back-i {
+	background-color: rgb(10, 10, 10, 0.0);
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgba(47, 65, 221);
+	text-shadow: 8px 10px 12px rgb(10, 10, 10);
+	height: 600px;
+	width: 1290px;
+	margin-left: 20px;
+}
+
+.bubbles {
+margin-top: 100px;
+font-family: fantasy;
+letter-spacing: 2px;
+}
+
+.bubbles-i {
+	margin-top: 300px;
+	font-family: fantasy;
+	letter-spacing: 2px;
+	}
+	
 .sound {
-	margin-top: 100px;
+	margin-top: 120px;
+	float: right;
+	margin-right: 40px;
+	border: 7px solid rgb(10, 10, 10);
+	box-shadow: 4px 8px 10px rgb(255, 255, 255);
+}
+
+.sound-i {
+	margin-top: 185px;
+	float: right;
+	margin-right: 35px;
 }
 
 .video {
-	margin-top: 100px;
+	float: left;
+	border: 7px solid rgb(10, 10, 10);
+	box-shadow: 4px 8px 10px rgb(255, 255, 255);
+}
+
+.video-i {
+	float: left;
+	margin-top: 63px;
+margin-left: -3px;
 }
 
 section {
@@ -298,18 +342,18 @@ aside {
 	margin-bottom: 10px;
 }
 
-.aside-about {
+.about-aside {
 	border: 2px solid rgb(0, 128, 0);
 	color: rgb(250, 235, 215);
 	padding-left: 15px;
-	height: 1100px;
+	height: 600px;
 	width: 37%;
 	float: right;
 	clear: none;
 	margin-bottom: 10px;
 }
 
-.aside-contact {
+.contact-aside {
 	border: 2px solid rgb(0, 128, 0);
 	color: rgb(250, 235, 215);
 	padding-left: 15px;
@@ -333,9 +377,49 @@ article {
 	margin-bottom: 10px;
 }
 
+.about-article {
+	width: 38%;
+}
+
+.contact-article {
+width: 1000px;
+height: 1200px;
+margin-bottom: 10px;
+}
+
 .photo {
 	padding: 6px;
 }
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
 
 /* footer */
 footer {
