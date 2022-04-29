@@ -254,28 +254,36 @@ img {
 		margin-left: 20px;
 	} */
 
-
-}
-
 /* .sound {
 	margin-top: 100px;
-} */
+}
 
-/* .video {
+.video {
 	margin-top: 100px;
 } */
-
 
 section {
 	/* border: 2px solid rgb(10, 10, 10); */
 	color: rgb(250, 235, 215);
 	/* padding-left: 15px; */
-	height: 263px;
+	height: 1300px;
 	width: 1000px;
 	float: left;
 	clear: none;
 	margin-bottom: 10px;
 	margin-left: 108px;
+}
+
+.section-contact {
+    background: rgb(224, 217, 53, 0.725);
+    background: radial-gradient(circle, rgba(224, 217, 53, 0.725) 0%, rgba(214, 77, 18, 0.725) 100%);
+    border: 3px solid rgb(37, 11, 37);
+    height: 1300px;
+    width: 1020px;
+    margin-bottom: 10px;
+    margin-left: 112px;
+    color: rgb(250, 235, 215);
+    padding-left: 20px;
 }
 
 aside {
@@ -289,7 +297,6 @@ aside {
 	margin-bottom: 10px;
 }
 
-
 .aside-about {
 	border: 2px solid rgb(0, 128, 0);
 	color: rgb(250, 235, 215);
@@ -300,7 +307,6 @@ aside {
 	clear: none;
 	margin-bottom: 10px;
 }
-
 
 .aside-contact {
 	border: 2px solid rgb(0, 128, 0);
@@ -314,7 +320,9 @@ aside {
 }
 
 /* this is the styles for the content box for aside in about */
-element.style {}
+element.style {
+	
+}
 
 .toc {
 	display: table;
@@ -385,6 +393,7 @@ footer {
 	text-align: center;
 	height: 850px;
 	padding: 5px;
+	float: both;
 }
 
 .logo {
@@ -420,4 +429,48 @@ footer {
 .myname {
 	font-size: larger;
 	color: rgb(255, 255, 255);
+}
+
+/* form */
+input[type=text] {
+    width: 80%;
+    height: 50px;
+    background-color: rgb(250, 235, 215, 0.3);
+    margin-left: 50px;
+}
+
+textarea {
+    width: 80%;
+    margin-left: 50px;
+    box-sizing: border-box;
+    border: 1px solid rgb(37, 11, 37);
+    color: rgb(37, 11, 37);
+    background-color: rgb(250, 235, 215, 0.3);
+}
+
+button[type=submit] {
+    height: 50px;
+    float: right;
+    margin-right: 150px;
+    background-color: rgb(250, 235, 215, 0.3);
+}
+
+.page {
+    background-color: rgba(178, 199, 64, 1);
+    border: 1px rgb(12, 12, 12);
+    padding: 5px;
+    height: 1200px;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+.contact-form {
+    text-align: center;
+    color: rgb(250, 235, 215);
+    padding: 75px;
+}
+
+.cf-h2 {
+    text-align: center;
+    padding: 50px;
 }
