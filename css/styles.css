@@ -276,7 +276,7 @@ img {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: rgba(47, 65, 221);
+	color: rgb(250, 235, 215);
 	text-shadow: 8px 10px 12px rgb(10, 10, 10);
 	height: 600px;
 	width: 1290px;
